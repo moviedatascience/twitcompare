@@ -1,1 +1,1 @@
-web: gunicorn twitcompare:APP -t 300
+web: gunicorn twitcompare:app
