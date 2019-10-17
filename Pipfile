@@ -12,6 +12,7 @@ tweepy = "*"
 basilica = "*"
 python-dotenv = "*"
 python-decouple = "*"
+gunicorn = "*"
 
 [requires]
 python_version = "3.7"
