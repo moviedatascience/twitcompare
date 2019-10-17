@@ -1,1 +1,1 @@
-web: gunicorn twitcompare:app -t 200
+web: gunicorn "myflaskmodule:create_app()" -t 200
