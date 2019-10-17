@@ -51,7 +51,7 @@ def create_app():
     def reset():
         DB.drop_all()
         DB.create_all()
-        return render_template('base.html', title='Reset database!')
+        return render_template('base.html', title='Database has been reset!')
 
     @app.route('/update')
     def update():
