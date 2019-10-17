@@ -8,7 +8,7 @@ from .twitter import add_or_update_user, update_all_users, add_default_users
 load_dotenv()
 
 def create_app():
-    """Create and configure an instance of the Flask application"""
+    """Create and configure an instance of the Flask app"""
     app = Flask(__name__)
     app.config['SQLALCHEMY_DATABASE_URI'] = config('DATABASE_URL')
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
