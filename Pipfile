@@ -15,6 +15,7 @@ python-decouple = "*"
 gunicorn = "*"
 psycopg2 = "*"
 numpy = "*"
+sklearn = "*"
 
 [requires]
 python_version = "3.7"
